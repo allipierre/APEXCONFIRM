@@ -12,11 +12,11 @@ Chart Line for Oracle Apex.
 - background Color
 
  - Border Color                                        
-                                        
+
  - the Chart Label                                      
-                                        
-                                        
+
+
 
 # Preview
 
-![](https://github.com/allipierre/Chart-Line-for-Oracle-Apex/blob/master/chartline.png)
+![](https://github.com/allipierre/APEXCONFIRM/blob/master/apexconfirm.gif)
