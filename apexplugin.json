@@ -27,7 +27,7 @@
       "versions": ["5.1.0"],
       "plugin": {
         "internalName": "PIERRE.APEXCONFIRM.DE",
-        "type": "Dynamic Action",
+        "type": "dynamic action",
         "demo": "https://apex.oracle.com/pls/apex/f?p=123868:76",
         "previewImage": "https://raw.githubusercontent.com/allipierre/APEXCONFIRM/master/apexconfirm.gif"
       }
