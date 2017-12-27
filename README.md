@@ -1,22 +1,33 @@
-# Apex Region Plugin
-Chart Line for Oracle Apex.
+# Apex Dynamic Action Plugin
+APEX Confirm for Oracle Apex.
 
 
 # How to Use
-1. Create a Region
-2. Choose Type "Chartjs Line [Plug-In]"
+1. Create a new Dynamic Action with your desired event
+2. As action choose "APEX Confirm [Plugin]"
 3. Under Attributes: - you can select :
 
-- the Chart Title
+- Theme : Colors the modal to give the user a hint of success/failure/warning,
+available options are: 'blue, green, red, orange, purple & dark'
 
-- background Color
+- Title : Title of the dialog.
 
- - Border Color                                        
+- closeIcon: By default closeIcon is visible if both buttons are false. (dialog mode).
+closeIcon can be shown by setting this value to true.                                      
 
- - the Chart Label                                      
+- columnClass: Provides a better way to set Custom width and is responsive.                                    
 
+- Action : Javascript code to be execute when click of the left or "OK" button
+Example:
+```
+var callData = function(){
+    return 133;
+}
+alert(callData());
 
+```
 
+- Dialog Content: Content for the dialog.
 # Preview
 
 ![](https://github.com/allipierre/APEXCONFIRM/blob/master/apexconfirm.gif)
