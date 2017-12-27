@@ -28,6 +28,12 @@ alert(callData());
 ```
 
 - Dialog Content: Content for the dialog.
+
+# Example Settings
+![](https://github.com/allipierre/APEXCONFIRM/blob/master/example1.0.png)
+
+![](https://github.com/allipierre/APEXCONFIRM/blob/master/example1.1.png)
+
 # Preview
 
 ![](https://github.com/allipierre/APEXCONFIRM/blob/master/apexconfirm.gif)
