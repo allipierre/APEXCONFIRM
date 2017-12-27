@@ -61,7 +61,7 @@ wwv_flow_api.create_plugin(
 'BEGIN',
 '  -- attribute defaults',
 '  l_theme        := nvl(l_theme,',
-'                        ''tooltipster-default'');',
+'                        ''blue'');',
 '  l_column_class  := nvl(l_column_class,',
 '                        ''TEXT'');',
 '  l_close_icon := nvl(l_close_icon,',
@@ -136,6 +136,7 @@ wwv_flow_api.create_plugin(
 'A jQuery plugin that provides great set of features like, Auto-close, Ajax-loading, Themes, Animations and more. ',
 'This plugin is actively developed, I would love you have your suggestions.'))
 ,p_version_identifier=>'1.0'
+,p_about_url=>'https://github.com/allipierre/APEXCONFIRM'
 ,p_files_version=>115
 );
 wwv_flow_api.create_plugin_attribute(
